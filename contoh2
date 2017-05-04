@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // 3! = 3*2*1 = 6
+    // Faktorial
+
+    int Bil;
+    int Hasil = 1;
+
+    cout<<"Berapa bilangannya? ";
+
+    //menggunakan for
+    cin>>Bil;
+
+    for (int i=Bil; i>=1; i--)
+    {
+        Hasil=Hasil*i;
+    }
+
+    cout<<"Hasilnya=> "<<Hasil;
+
+    return 0;
+}
